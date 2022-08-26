@@ -1,0 +1,85 @@
+
+.main-card {
+    background-color: var(--bg-cards);
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom:30px ;
+}
+
+
+.main-card__titulo {
+    color: #837E9F;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.container-topo {
+    display: flex;
+    justify-content: space-between;
+    color: #837E9F;
+}
+
+.container-onix {
+    display: flex;
+    gap: 30px;
+    color: #837E9F;
+}
+
+.container-onix__card-folder {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    gap: 5px;
+}
+
+.container-onix__card-paragrafo {
+    font-size: 14px;
+}
+
+.posts-recentes {
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.container-onix-stars {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-onix-starts-ratings, .container-onix-starts-ratings__paragrafo {
+    display: flex;
+    align-items: center;
+}
+
+.container-onix__card-paragrafo {
+    margin: 20px 0;
+}
+
+.meu-post {
+    display: flex;
+    color: #837E9F;
+    gap: 20px;
+}
+
+.meu-post-anos {
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.meu-post__paragrafo {
+    margin: 8px 0;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.meu-post__item {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+#outra-foto-perfil {
+    width: 100px;
+    border-radius: 100%;
+}

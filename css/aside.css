@@ -1,0 +1,74 @@
+.aside-card {
+    background-color: var(--bg-cards);
+    border-radius: 20px;
+    color: var(--text-color);
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.aside-container-perfil {
+    text-align: center;
+}
+
+#foto-perfil {
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid #00FF00;
+}
+
+.aside-container-perfil__titulo {
+    margin: 30px 0 10px 0;
+    font-weight: 700;
+    font-size: 23px;
+}
+
+.aside-container-perfil__paragrafo {
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.aside-container-informacao__item {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.aside-container-informacao__item-img {
+    color: var(--text-color);
+    margin-right: 15px;
+}
+
+.aside-card__titulo {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.aside-container-tecnologias__techs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.aside-container-tecnologias__skills {
+    background-color: #CB92B1;
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 7px 0;
+    border-radius: 30px;
+}
+
+.aside-card__lista {
+    list-style-type: disc;
+    padding: 20px;
+}
+
+.aside-card__lista__item {
+    font-weight: 300;
+    font-size: 12px;
+    margin-bottom: 10px;
+}

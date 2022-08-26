@@ -1,0 +1,9 @@
+footer {
+    text-align: center;
+    grid-column: span 2;
+}
+
+footer p {
+    color: #837E9F;
+    font-size: 14px;
+}
