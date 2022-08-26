@@ -22,3 +22,11 @@ body {
     gap: 60px;
 }
 
+@media screen and (max-width:900px){
+    body {
+        grid-template-columns: 100%;
+        font-size: 18px;
+       align-items: center;
+    }
+}
+

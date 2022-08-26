@@ -2,7 +2,7 @@
     background-color: var(--bg-cards);
     border-radius: 20px;
     color: var(--text-color);
-    padding: 20px;
+    padding: 1em;
     margin-bottom: 30px;
 }
 
@@ -58,7 +58,7 @@
     text-transform: uppercase;
     font-size: 10px;
     font-weight: 700;
-    padding: 7px 0;
+    padding: 7px;
     border-radius: 30px;
 }
 
