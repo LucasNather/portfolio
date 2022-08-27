@@ -22,7 +22,7 @@
     font-size: 23px;
 }
 
-.aside-container-perfil__paragrafo {
+.aside-container-perfil__paragrafo, .aside-container-informacao__item a {
     font-weight: 300;
     font-size: 13px;
 }
@@ -32,6 +32,11 @@
     display: flex;
     align-items: center;
     margin-bottom: 12px;
+}
+
+.aside-container-informacao__item a {
+    text-decoration: none;
+    color:var(--text-color) ;
 }
 
 .aside-container-informacao__item-img {
